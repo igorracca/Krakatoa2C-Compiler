@@ -30,7 +30,9 @@ Você pode fazer isso da seguinte maneira:
 Existe um diretório chamado KraFiles que contém arquivos .kra para teste. 
   
   
-  ou
+  
+   ou
+  
   
   
 Note que o compilador fornecido, ao ser chamado passando um diretório como parâmetro, compila todos os arquivos “*.kra” daquele diretório e produz um relatório de erros. Assim, ao chamar o compilador,
