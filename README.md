@@ -22,14 +22,18 @@ Os arquivos .kra para teste estão na pasta KraFiles.
 ## Execucao
 
 A maneira mais fácil de executar este projeto é importá-lo como um projeto existente no Eclipse e rodá-lo passando um diretório com os arquivos .kra como parâmetro.
+
 Você pode fazer isso da seguinte maneira:
-RUN > RUN CONFIGURATIONS > ARGUMENTS > PROGRAM ARGUMENTS
+
+`RUN > RUN CONFIGURATIONS > ARGUMENTS > PROGRAM ARGUMENTS`
 Existe um diretório chamado KraFiles que contém arquivos .kra para teste. 
+  
   
   ou
   
+  
 Note que o compilador fornecido, ao ser chamado passando um diretório como parâmetro, compila todos os arquivos “*.kra” daquele diretório e produz um relatório de erros. Assim, ao chamar o compilador,
-            C:\Dropbox\16-2\LC\krakatoa\bin>java -cp . comp.Comp "C:\Dropbox\16-2\LC\tests"
+`C:\Dropbox\16-2\LC\krakatoa\bin>java -cp . comp.Comp "C:\Dropbox\16-2\LC\tests"`
 este criará, no diretório corrente, os arquivos “*.c” correspondentes ao código gerado em Krakatoa
  
 
