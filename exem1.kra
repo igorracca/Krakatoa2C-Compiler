@@ -1,0 +1,32 @@
+class A { 
+   private int i;
+   public int get() {
+      return this.i; 
+   } 
+   public void put() {
+
+   }
+   public void m2() {
+      this.put();
+   }
+}
+
+class B extends A { 
+private int lastInc; 
+   public void m1( int a ) {
+      write("olar");
+      super.put();
+   }
+}
+
+
+class Program { 
+   public void run() { 
+      A a;
+      int k;
+      a = new A();
+      a.put(); 
+      k = a.get();
+      write(k);
+   }
+}
