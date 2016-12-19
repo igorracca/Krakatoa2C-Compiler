@@ -26,6 +26,7 @@ A maneira mais fácil de executar este projeto é importá-lo como um projeto ex
 Você pode fazer isso da seguinte maneira:
 
 `RUN > RUN CONFIGURATIONS > ARGUMENTS > PROGRAM ARGUMENTS`
+
 Existe um diretório chamado KraFiles que contém arquivos .kra para teste. 
   
   
@@ -33,7 +34,9 @@ Existe um diretório chamado KraFiles que contém arquivos .kra para teste.
   
   
 Note que o compilador fornecido, ao ser chamado passando um diretório como parâmetro, compila todos os arquivos “*.kra” daquele diretório e produz um relatório de erros. Assim, ao chamar o compilador,
+
 `C:\Dropbox\16-2\LC\krakatoa\bin>java -cp . comp.Comp "C:\Dropbox\16-2\LC\tests"`
+
 este criará, no diretório corrente, os arquivos “*.c” correspondentes ao código gerado em Krakatoa
  
 
