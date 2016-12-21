@@ -1,6 +1,6 @@
 # Krakatoa2C-Compiler
 
-Este compilador gera código fonte em C, ou seja, o compilador irá gerar um código fonte em C a partir de um código fonte em Krakatoa (uma linguagem orientada a objetos, mais precisamente um subconjunto de Java).
+Este compilador gera código fonte em C, ou seja, o compilador irá gerar um código fonte em C a partir de um código fonte em [Krakatoa](https://github.com/igorracca/Krakatoa2C-Compiler/blob/master/The%20Krakatoa%20Language.pdf) (uma linguagem orientada a objetos, mais precisamente um subconjunto de Java).
 
 Os dois artigos utilizados neste projeto se encontram no repositório:
 
